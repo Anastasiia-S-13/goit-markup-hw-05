@@ -664,7 +664,6 @@ main {
   line-height: 1.33;
   text-decoration: underline;
   color: #4d5ae5;
-  display: inline-flex;
 }
 
 .form-btn {
@@ -693,7 +692,6 @@ main {
 }
 
 .checkbox-desing {
-  display: inline-block;
   width: 16px;
   height: 16px;
   border-radius: 2px;
