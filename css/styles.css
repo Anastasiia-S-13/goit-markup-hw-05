@@ -664,6 +664,7 @@ main {
   line-height: 1.33;
   text-decoration: underline;
   color: #4d5ae5;
+  display: inline-flex;
 }
 
 .form-btn {
