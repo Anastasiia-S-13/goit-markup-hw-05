@@ -472,25 +472,39 @@ textarea {
   border-radius: 4px;
   width: 264px;
   padding: 8px 16px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-email::placeholder {
   font-size: 12px;
+  color: #ffffff;
 }
 
 .footer-submit {
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  min-width: 165px;
   border-radius: 4px;
   padding: 8px 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   color: #fff;
   fill: #fff;
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms ease-in-out;
+}
+
+.submit-svg {
+  margin-left: 16px;
 }
 
 .footer-submit:hover,
