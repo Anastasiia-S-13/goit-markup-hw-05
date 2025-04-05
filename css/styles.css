@@ -712,9 +712,3 @@ main {
   border: none;
   fill: #f4f4fd;
 }
-
-.label-checkbox {
-  display: flex;
-  align-items: center;
-  margin-bottom: 24px;
-}
